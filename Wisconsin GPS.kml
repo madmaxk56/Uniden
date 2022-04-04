@@ -1,0 +1,3949 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Highlighted Icon</name>
+    <description>Place your mouse over the icon to see it display the new
+          icon</description>
+    <StyleMap id="DepartmentStyleMap">
+      <Pair>
+        <key>normal</key>
+        <!-- you could also use a <styleUrl> here instead of inlining -->
+        <Style>
+          <IconStyle>
+            <Icon>
+              <href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+            </Icon>
+          </IconStyle>
+          <LabelStyle>
+            <color>7fffffff</color>
+            <colorMode>normal</colorMode>
+            <scale>0</scale>
+          </LabelStyle>
+        </Style>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <!-- you could also use a <styleUrl> here instead of inlining -->
+        <Style>
+          <IconStyle>
+            <Icon>
+              <href>http://maps.google.com/mapfiles/kml/paddle/grn-stars.png</href>
+            </Icon>
+          </IconStyle>
+          <LabelStyle>
+            <color>ff8888ff</color>
+            <colorMode>normal</colorMode>
+            <scale>1</scale>
+          </LabelStyle>
+        </Style>
+      </Pair>
+    </StyleMap>
+
+  <name>Current Location Icon</name>
+  <description>Place your mouse over the icon to see it display the new
+     icon</description>
+  <StyleMap id="MyLocationMap">
+   <Pair>
+    <key>normal</key>
+    <!-- you could also use a <styleUrl> here instead of inlining -->
+    <Style>
+     <IconStyle>
+      <Icon>
+       <href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+      </Icon>
+     </IconStyle>
+     <LabelStyle>
+      <color>ffffffff</color>
+      <colorMode>normal</colorMode>
+      <scale>0</scale>
+     </LabelStyle>
+    </Style>
+   </Pair>
+   <Pair>
+    <key>highlight</key>
+    <!-- you could also use a <styleUrl> here instead of inlining -->
+    <Style>
+     <IconStyle>
+      <Icon>
+       <href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+      </Icon>
+     </IconStyle>
+     <LabelStyle>
+      <color>ff8888ff</color>
+      <colorMode>normal</colorMode>
+      <scale>1</scale>
+     </LabelStyle>
+    </Style>
+   </Pair>
+  </StyleMap>
+    <Placemark>
+      <name>Southeast Interop on WISCOM</name>
+      <description>This department has 4 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.186000,43.018500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>East Centeral Interop on WISCOM</name>
+      <description>This department has 4 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.341064,44.339565,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>WISP - Waukesha on WISCOM</name>
+      <description>This department has 6 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.186000,43.018500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DOC - Columbia on WISCOM</name>
+      <description>This department has 15 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.462620,43.539149,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DOC - Fox Lake on WISCOM</name>
+      <description>This department has 3 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.906498,43.565543,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DOC - Kettle Moraine on WISCOM</name>
+      <description>This department has 14 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.981205,43.763328,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DOC - Oakhill on WISCOM</name>
+      <description>This department has 6 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.429286,42.900557,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DOC - Racine on WISCOM</name>
+      <description>This department has 7 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.894523,42.698075,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DOC - Racine Youth on WISCOM</name>
+      <description>This department has 7 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.782852,42.726131,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DOC - Redgranite on WISCOM</name>
+      <description>This department has 6 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.098450,44.041924,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DOC - Waupun on WISCOM</name>
+      <description>This department has 31 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.729552,43.633322,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DHS - Mendota on WISCOM</name>
+      <description>This department has 1 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.401794,43.136829,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Milwaukee County on WISCOM</name>
+      <description>This department has 11 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.945500,43.017000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ozaukee County on WISCOM</name>
+      <description>This department has 2 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.933500,43.367000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Waukesha County on WISCOM</name>
+      <description>This department has 17 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.303000,43.019500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Washington County on WISCOM</name>
+      <description>This department has 3 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.265000,43.367500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Racine County on WISCOM</name>
+      <description>This department has 2 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.018000,42.726500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kenosha County on WISCOM</name>
+      <description>This department has 2 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.054000,42.581000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Walworth County on WISCOM</name>
+      <description>This department has 8 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.541000,42.669000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Dodge County on WISCOM</name>
+      <description>This department has 5 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.705500,43.414000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Jefferson County on WISCOM</name>
+      <description>This department has 3 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.775500,43.020500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Rock County on WISCOM</name>
+      <description>This department has 15 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.073000,42.669000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Brown County on WISCOM</name>
+      <description>This department has 2 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.008500,44.458500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fond du Lac County on WISCOM</name>
+      <description>This department has 3 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.523500,43.740000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>City of Fond du Lac on WISCOM</name>
+      <description>This department has 5 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.436000,43.771000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Calumet County on WISCOM</name>
+      <description>This department has 2 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.200103,44.083324,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Columbia County on WISCOM</name>
+      <description>This department has 3 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.333451,43.466651,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Dane County on WISCOM</name>
+      <description>This department has 32 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.459616,43.073665,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Green County on WISCOM</name>
+      <description>This department has 2 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.600122,42.833336,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Green Lake County on WISCOM</name>
+      <description>This department has 2 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.033447,43.799981,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kewaunee County on WISCOM</name>
+      <description>This department has 15 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.633423,44.516664,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Manitowoc County on WISCOM</name>
+      <description>This department has 4 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.800089,44.066661,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Marquette County on WISCOM</name>
+      <description>This department has 2 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.400121,43.816645,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Outagamie County on WISCOM</name>
+      <description>This department has 3 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.466770,44.416652,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sheboygan County on WISCOM</name>
+      <description>This department has 2 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.933425,43.733328,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Waupaca County on WISCOM</name>
+      <description>This department has 2 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.983443,44.466648,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Waushara County on WISCOM</name>
+      <description>This department has 2 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.250674,44.116644,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Winnebago County on WISCOM</name>
+      <description>This department has 3 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.650112,44.066650,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Countywide on Milwaukee County</name>
+      <description>This department has 4 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.945500,43.017000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EMS on Milwaukee County</name>
+      <description>This department has 7 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.945500,43.017000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>North Shore on Milwaukee County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.924500,43.137000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>West Allis on Milwaukee County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.023500,43.006000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>University Security on Milwaukee County</name>
+      <description>This department has 12 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.945500,43.017000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mall Security on Milwaukee County</name>
+      <description>This department has 8 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.945500,43.017000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hospital Security on Milwaukee County</name>
+      <description>This department has 14 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.945500,43.017000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>City of Milwaukee on Milwaukee County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.945500,43.017000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Systemwide on Milwaukee County</name>
+      <description>This department has 23 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.945500,43.017000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Countywide on Milwaukee County</name>
+      <description>This department has 21 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.945500,43.017000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Flight For Life on Milwaukee County</name>
+      <description>This department has 1 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.945500,43.017000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>US Marshals on Milwaukee County</name>
+      <description>This department has 1 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.945500,43.017000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>VA Hospital on Milwaukee County</name>
+      <description>This department has 3 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.976000,43.020000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Emergency Managment on Milwaukee County</name>
+      <description>This department has 13 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.945500,43.017000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Milwaukee Firebell on Milwaukee County</name>
+      <description>This department has 5 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.945500,43.017000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EMS on Milwaukee County</name>
+      <description>This department has 16 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.945500,43.017000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Medical Examiner on Milwaukee County</name>
+      <description>This department has 2 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.945500,43.017000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Health Department on Milwaukee County</name>
+      <description>This department has 3 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.945500,43.017000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sheriff on Milwaukee County</name>
+      <description>This department has 24 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.945500,43.017000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sheriff Enc on Milwaukee County</name>
+      <description>This department has 21 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.945500,43.017000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HIDTA on Milwaukee County</name>
+      <description>This department has 10 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.945500,43.017000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>District Attorney on Milwaukee County</name>
+      <description>This department has 6 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.945500,43.017000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>County Jail on Milwaukee County</name>
+      <description>This department has 13 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.923000,43.042000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>House of Corrections on Milwaukee County</name>
+      <description>This department has 9 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.002000,42.880000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>KMKE on Milwaukee County</name>
+      <description>This department has 10 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.896000,42.947000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cudahy on Milwaukee County</name>
+      <description>This department has 8 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.865000,42.948000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Franklin on Milwaukee County</name>
+      <description>This department has 16 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.010500,42.886500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Greendale on Milwaukee County</name>
+      <description>This department has 11 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.998000,42.937000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Greenfield on Milwaukee County</name>
+      <description>This department has 12 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.009000,42.959000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hales Corners on Milwaukee County</name>
+      <description>This department has 11 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.049000,42.940500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>City of Milwaukee on Milwaukee County</name>
+      <description>This department has 13 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.945500,43.017000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Marquette University Enc on Milwaukee County</name>
+      <description>This department has 2 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.931000,43.039000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>North Shore on Milwaukee County</name>
+      <description>This department has 26 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.924500,43.137000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Oak Creek on Milwaukee County</name>
+      <description>This department has 12 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.888000,42.886000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>St. Francis on Milwaukee County</name>
+      <description>This department has 13 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.870500,42.972500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>South Milwaukee on Milwaukee County</name>
+      <description>This department has 12 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.862000,42.911500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Wauwatosa on Milwaukee County</name>
+      <description>This department has 15 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.025000,43.068500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mayfair Mall on Milwaukee County</name>
+      <description>This department has 2 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.045000,43.064000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>West Allis on Milwaukee County</name>
+      <description>This department has 20 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.023500,43.006000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>West Milwaukee on Milwaukee County</name>
+      <description>This department has 5 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.973000,43.014000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Marquette University on Milwaukee County</name>
+      <description>This department has 4 total channels.
+System type is NXDN Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.930000,43.038000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Countywide on Ozaukee County</name>
+      <description>This department has 5 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.933500,43.367000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cedarburg on Ozaukee County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.990000,43.300000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Grafton on Ozaukee County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.955000,43.319000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mequon on Ozaukee County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.977500,43.235500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Univsersity Security on Ozaukee County</name>
+      <description>This department has 2 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.977500,43.235500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sheriff on Ozaukee County</name>
+      <description>This department has 32 total channels.
+System type is EDACS.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.933500,43.367000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cedarburg on Ozaukee County</name>
+      <description>This department has 14 total channels.
+System type is EDACS.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.990000,43.300000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Waubeka on Ozaukee County</name>
+      <description>This department has 7 total channels.
+System type is EDACS.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.990000,43.475000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Saukville on Ozaukee County</name>
+      <description>This department has 13 total channels.
+System type is EDACS.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.942000,43.384000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Port Washington on Ozaukee County</name>
+      <description>This department has 13 total channels.
+System type is EDACS.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.950000,43.380000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Thiensville on Ozaukee County</name>
+      <description>This department has 15 total channels.
+System type is EDACS.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.977000,43.234500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fredonia on Ozaukee County</name>
+      <description>This department has 7 total channels.
+System type is EDACS.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.952000,43.470000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Belgium on Ozaukee County</name>
+      <description>This department has 7 total channels.
+System type is EDACS.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.850000,43.502000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Grafton on Ozaukee County</name>
+      <description>This department has 13 total channels.
+System type is EDACS.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.955000,43.319000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mequon on Ozaukee County</name>
+      <description>This department has 18 total channels.
+System type is EDACS.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.977500,43.235500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Countywide on Ozaukee County</name>
+      <description>This department has 26 total channels.
+System type is EDACS.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.933500,43.367000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EMS on Ozaukee County</name>
+      <description>This department has 6 total channels.
+System type is EDACS.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.933500,43.367000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Countywide on Ozaukee County</name>
+      <description>This department has 0 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.933500,43.367000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sheriff on Ozaukee County</name>
+      <description>This department has 2 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.933500,43.367000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mequon on Ozaukee County</name>
+      <description>This department has 3 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.977500,43.235500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Countywide on Waukesha County</name>
+      <description>This department has 7 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.303000,43.019500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Elm Grove on Waukesha County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.086500,43.048000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Lisbon on Waukesha County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.246000,43.151000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Menomonee Falls on Waukesha County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.124000,43.148500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mukwonago on Waukesha County</name>
+      <description>This department has 2 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.333000,42.857000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Muskego on Waukesha County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.129500,42.886500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Oconomowoc on Waukesha County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.496000,43.101000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Systemwide on Waukesha County</name>
+      <description>This department has 23 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.303000,43.019500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Countywide on Waukesha County</name>
+      <description>This department has 33 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.303000,43.019500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Flight For Life on Waukesha County</name>
+      <description>This department has 1 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.303000,43.019500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>US Marshals on Waukesha County</name>
+      <description>This department has 1 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.303000,43.019500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EMS on Waukesha County</name>
+      <description>This department has 9 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.303000,43.019500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sheriff on Waukesha County</name>
+      <description>This department has 9 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.303000,43.019500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Big Bend on Waukesha County</name>
+      <description>This department has 3 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.205000,42.863000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Brookfield on Waukesha County</name>
+      <description>This department has 12 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.126500,43.071000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Butler on Waukesha County</name>
+      <description>This department has 4 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.071500,43.108000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Chenequa on Waukesha County</name>
+      <description>This department has 1 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.383000,43.122000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Delafield on Waukesha County</name>
+      <description>This department has 4 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.391000,43.073000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Eagle on Waukesha County</name>
+      <description>This department has 5 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.475000,42.880000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Elm Grove on Waukesha County</name>
+      <description>This department has 6 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.086500,43.048000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hartland on Waukesha County</name>
+      <description>This department has 3 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.342000,43.102000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Lac La Belle on Waukesha County</name>
+      <description>This department has 1 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.540000,43.126000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Lake Country on Waukesha County</name>
+      <description>This department has 3 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.425000,43.100000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Lannon on Waukesha County</name>
+      <description>This department has 1 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.164500,43.154500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Lisbon on Waukesha County</name>
+      <description>This department has 3 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.246000,43.151000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bark River on Waukesha County</name>
+      <description>This department has 3 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.303000,43.019500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Merton on Waukesha County</name>
+      <description>This department has 2 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.301000,43.141000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Menomonee Falls on Waukesha County</name>
+      <description>This department has 5 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.124000,43.148500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mukwonago on Waukesha County</name>
+      <description>This department has 8 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.333000,42.857000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Muskego / Tess Corners on Waukesha County</name>
+      <description>This department has 6 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.129500,42.886500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>North Prairie on Waukesha County</name>
+      <description>This department has 4 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.404000,42.935000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>New Berlin on Waukesha County</name>
+      <description>This department has 7 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.128000,42.973500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Oconomowoc on Waukesha County</name>
+      <description>This department has 8 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.496000,43.101000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pewaukee on Waukesha County</name>
+      <description>This department has 7 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.244000,43.066500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Summit on Waukesha County</name>
+      <description>This department has 2 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.481000,43.059000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sussex on Waukesha County</name>
+      <description>This department has 4 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.224000,43.134000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Vernon on Waukesha County</name>
+      <description>This department has 2 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.252000,42.904000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Wales Genesee on Waukesha County</name>
+      <description>This department has 2 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.365000,42.974000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>City of Waukesha on Waukesha County</name>
+      <description>This department has 13 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.238000,43.012000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Western Lakes on Waukesha County</name>
+      <description>This department has 5 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.425000,43.100000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Countywide on Washington County</name>
+      <description>This department has 4 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.265000,43.367500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Allenton on Washington County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.341000,43.421000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Germantown on Washington County</name>
+      <description>This department has 2 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.122500,43.236500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hartford on Washington County</name>
+      <description>This department has 2 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.379000,43.318000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Newburg on Washington County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.048000,43.432000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Richfield on Washington County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.241000,43.237000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Slinger on Washington County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.285000,43.334000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>West Bend on Washington County</name>
+      <description>This department has 3 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.181000,43.418000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Countywide on Washington County</name>
+      <description>This department has 18 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.265000,43.367500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Allenton on Washington County</name>
+      <description>This department has 4 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.341000,43.421000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Boltonville on Washington County</name>
+      <description>This department has 5 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.100000,43.527000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fillmore on Washington County</name>
+      <description>This department has 4 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.060000,43.498000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Germantown on Washington County</name>
+      <description>This department has 10 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.122500,43.236500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hartford on Washington County</name>
+      <description>This department has 12 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.379000,43.318000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Jackson on Washington County</name>
+      <description>This department has 6 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.167000,43.325000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kewaskum on Washington County</name>
+      <description>This department has 6 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.232000,43.517000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kohlsville on Washington County</name>
+      <description>This department has 4 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.322000,43.471000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Newburg on Washington County</name>
+      <description>This department has 6 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.048000,43.432000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Richfield on Washington County</name>
+      <description>This department has 5 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.241000,43.237000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>St. Lawrence on Washington County</name>
+      <description>This department has 4 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.333000,43.370000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Slinger on Washington County</name>
+      <description>This department has 6 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.285000,43.334000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>West Bend on Washington County</name>
+      <description>This department has 17 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.181000,43.418000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Countywide on Racine County</name>
+      <description>This department has 6 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.018000,42.726500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sheriff on Racine County</name>
+      <description>This department has 6 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.018000,42.726500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Racine Firebell on Racine County</name>
+      <description>This department has 2 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.018000,42.726500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Burlington on Racine County</name>
+      <description>This department has 3 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.277000,42.681000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>City of Racine on Racine County</name>
+      <description>This department has 10 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.805000,42.726000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Metro West on Racine County</name>
+      <description>This department has 2 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.854000,42.756000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>South Shore on Racine County</name>
+      <description>This department has 2 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.866000,42.712500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sturtevant on Racine County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.900000,42.705000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Caledonia on Racine County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.867500,42.799500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Raymond / Wind Lake on Racine County</name>
+      <description>This department has 3 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.071500,42.799500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>County NW on Racine County</name>
+      <description>This department has 4 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.247500,42.777500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>County SC on Racine County</name>
+      <description>This department has 3 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.070500,42.713500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Countywide on Kenosha County</name>
+      <description>This department has 6 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.054000,42.581000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sheriff on Kenosha County</name>
+      <description>This department has 4 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.054000,42.581000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bristol on Kenosha County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.050000,42.559000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>City of Kenosha on Kenosha County</name>
+      <description>This department has 10 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.881000,42.587000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Paris on Kenosha County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.052000,42.634000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pleasant Prairie on Kenosha County</name>
+      <description>This department has 2 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.877500,42.529500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Twin Lakes on Kenosha County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.236000,42.522000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Wheatland on Kenosha County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.208000,42.594000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Collage Security on Kenosha County</name>
+      <description>This department has 2 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.054000,42.581000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Countywide on Walworth County</name>
+      <description>This department has 12 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.541000,42.669000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bloomfield on Walworth County</name>
+      <description>This department has 2 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.363500,42.538500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Darien on Walworth County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.712000,42.600000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Delavan on Walworth County</name>
+      <description>This department has 2 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.634000,42.634000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>East Troy on Walworth County</name>
+      <description>This department has 2 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.398000,42.791000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Elkhorn on Walworth County</name>
+      <description>This department has 4 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.539000,42.673000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fontana on Walworth County</name>
+      <description>This department has 2 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.573000,42.550000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Genoa City on Walworth County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.319000,42.505500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>La Grange on Walworth County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.602000,42.799000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Lake Geneva on Walworth County</name>
+      <description>This department has 4 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.438000,42.583000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Linn on Walworth County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.482000,42.538500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Lyons on Walworth County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.349000,42.651000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sharon on Walworth County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.730000,42.501000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>UW Whitewater on Walworth County</name>
+      <description>This department has 2 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.743000,42.842000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Village of Walworth on Walworth County</name>
+      <description>This department has 4 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.598000,42.533000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Whitewater on Walworth County</name>
+      <description>This department has 5 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.731000,42.836000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Williams Bay on Walworth County</name>
+      <description>This department has 5 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.541000,42.578000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Countywide on Jefferson County</name>
+      <description>This department has 8 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.775500,43.020500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fort Atkinson on Jefferson County</name>
+      <description>This department has 2 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.842000,42.922000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ixonia on Jefferson County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.597000,43.134000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>City of Jefferson on Jefferson County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.811000,43.010000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Lake Mills on Jefferson County</name>
+      <description>This department has 3 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.905000,43.079000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sullivan on Jefferson County</name>
+      <description>This department has 2 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.588000,43.012000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Watertown on Jefferson County</name>
+      <description>This department has 5 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.729000,43.190000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Countywide on Dodge County</name>
+      <description>This department has 11 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.705500,43.414000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Beaver Dam on Dodge County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.830000,43.440000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Horicon on Dodge County</name>
+      <description>This department has 2 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.638000,43.441000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mayville on Dodge County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.549000,43.498000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>County Jail on Dodge County</name>
+      <description>This department has 8 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.706000,43.407000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Countywide on Rock County</name>
+      <description>This department has 10 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.073000,42.669000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sheriff on Rock County</name>
+      <description>This department has 7 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.073000,42.669000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Beloit on Rock County</name>
+      <description>This department has 11 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.013000,42.532500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Clinton on Rock County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.867000,42.557000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Janesville on Rock County</name>
+      <description>This department has 8 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.013000,42.696000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Countywide on Dane County</name>
+      <description>This department has 9 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.425500,43.070000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cottage Grove on Dane County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.205000,43.090000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Deerfield on Dane County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.074000,43.051000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DeForest on Dane County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.342000,43.226000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fitchburg on Dane County</name>
+      <description>This department has 5 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.426500,42.987500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Madison on Dane County</name>
+      <description>This department has 6 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.422000,43.086500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Maple Bluff on Dane County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.379000,43.110000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>McFarland on Dane County</name>
+      <description>This department has 3 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.288000,43.018000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Middleton on Dane County</name>
+      <description>This department has 2 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.510000,43.101000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Monona on Dane County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.335000,43.059000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mount Horeb on Dane County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.727000,43.008000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Oregon on Dane County</name>
+      <description>This department has 2 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.395000,43.928000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Stoughton on Dane County</name>
+      <description>This department has 2 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.219000,42.923000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sun Prairie on Dane County</name>
+      <description>This department has 3 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.235000,43.185000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Vienna on Dane County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.422000,43.250500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Waunakee on Dane County</name>
+      <description>This department has 2 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.429500,43.183000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Universities on Dane County</name>
+      <description>This department has 5 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.425500,43.070000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Countywide on Dane County</name>
+      <description>This department has 35 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.425500,43.070000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sheriff on Dane County</name>
+      <description>This department has 6 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.425500,43.070000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hospital on Dane County</name>
+      <description>This department has 10 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.425500,43.070000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Belleville on Dane County</name>
+      <description>This department has 6 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.537000,43.863000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Black Earth on Dane County</name>
+      <description>This department has 2 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.746500,43.132500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Blue Mounds on Dane County</name>
+      <description>This department has 1 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.828000,43.018000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Brooklyn on Dane County</name>
+      <description>This department has 4 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.372000,43.854000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cambridge on Dane County</name>
+      <description>This department has 3 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.019000,43.006000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cottage Grove on Dane County</name>
+      <description>This department has 4 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.205000,43.090000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cross Plains on Dane County</name>
+      <description>This department has 4 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.650000,43.115000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Dane on Dane County</name>
+      <description>This department has 2 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.501000,43.250000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Deerfield on Dane County</name>
+      <description>This department has 2 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.074000,43.051000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DeForest on Dane County</name>
+      <description>This department has 3 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.342000,43.226000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fitchburg on Dane County</name>
+      <description>This department has 9 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.426500,42.987500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Maple Bluff on Dane County</name>
+      <description>This department has 3 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.379000,43.110000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Marshall on Dane County</name>
+      <description>This department has 4 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.065000,43.170000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mazomanie on Dane County</name>
+      <description>This department has 3 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.802000,43.174000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>McFarland on Dane County</name>
+      <description>This department has 3 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.288000,43.018000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Middleton on Dane County</name>
+      <description>This department has 5 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.510000,43.101000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Monona on Dane County</name>
+      <description>This department has 2 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.335000,43.059000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mount Horeb on Dane County</name>
+      <description>This department has 3 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.727000,43.008000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Oregon on Dane County</name>
+      <description>This department has 4 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.395000,43.928000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Shorewood Hills on Dane County</name>
+      <description>This department has 2 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.448000,43.080000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Stoughton on Dane County</name>
+      <description>This department has 16 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.219000,42.926000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sun Prairie on Dane County</name>
+      <description>This department has 14 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.235000,43.185000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Verona on Dane County</name>
+      <description>This department has 5 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.536000,42.985000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Waunakee on Dane County</name>
+      <description>This department has 4 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.429500,43.183000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Citywide on Dane County</name>
+      <description>This department has 5 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.422000,43.086500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EMS on Dane County</name>
+      <description>This department has 6 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.422000,43.086500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>City of Madison on Dane County</name>
+      <description>This department has 59 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.422000,43.086500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Capitol Police on Dane County</name>
+      <description>This department has 3 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.384000,43.075000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>County Jail on Dane County</name>
+      <description>This department has 10 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.384000,43.072000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>UW - Madison on Dane County</name>
+      <description>This department has 8 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.413000,43.077000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Countywide on Columbia County</name>
+      <description>This department has 6 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.396500,43.482500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sheriff on Columbia County</name>
+      <description>This department has 8 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.396500,43.482500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Arlington on Columbia County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.373000,43.336000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cambria on Columbia County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.112000,43.541000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Columbus on Columbia County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.025000,43.339000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fall River on Columbia County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.053000,43.385000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Lodi on Columbia County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.539000,43.319000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Portage on Columbia County</name>
+      <description>This department has 3 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.470000,43.551000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Rio on Columbia County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.242000,43.449000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Wisconsin Dells on Columbia County</name>
+      <description>This department has 3 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.783000,43.639000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Baraboo on Sauk County</name>
+      <description>This department has 3 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.748000,43.469000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Lake Delton on Sauk County</name>
+      <description>This department has 3 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.788000,43.588000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Merrimac on Sauk County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.631000,43.376000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sauk City on Sauk County</name>
+      <description>This department has 4 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.728000,43.282000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Countywide on Green County</name>
+      <description>This department has 9 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.601500,42.678500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Brodhead on Green County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.373000,42.616000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Monroe on Green County</name>
+      <description>This department has 4 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.646000,42.598000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Countywide on Brown County</name>
+      <description>This department has 12 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.008500,44.458500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Allouez on Brown County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.031000,44.474000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Denmark on Brown County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.829000,44.348000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Howard on Brown County</name>
+      <description>This department has 2 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.106000,44.569000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>New Franken on Brown County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.826000,44.531000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pulaski on Brown County</name>
+      <description>This department has 3 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.237000,44.669000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Suamico on Brown County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.055000,44.634500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Countywide on Brown County</name>
+      <description>This department has 47 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.008500,44.458500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sheriff on Brown County</name>
+      <description>This department has 10 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.008500,44.458500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ashwaubenon / DePere on Brown County</name>
+      <description>This department has 9 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.095000,44.455000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Green Bay on Brown County</name>
+      <description>This department has 28 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.004000,44.558000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pulaski on Brown County</name>
+      <description>This department has 1 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.237000,44.669000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Countywide on Outagamie County</name>
+      <description>This department has 4 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.464500,44.416500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Appleton on Outagamie County</name>
+      <description>This department has 5 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.391000,44.275000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Seymour on Outagamie County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.330000,44.514000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Gold Cross EMS on Outagamie County</name>
+      <description>This department has 2 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.464500,44.416500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Systemwide on Outagamie County</name>
+      <description>This department has 9 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.464500,44.416500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Countywide on Outagamie County</name>
+      <description>This department has 23 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.464500,44.416500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Appleton on Outagamie County</name>
+      <description>This department has 17 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.391000,44.275000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Grand Chute on Outagamie County</name>
+      <description>This department has 7 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.438000,44.281000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kaukauna on Outagamie County</name>
+      <description>This department has 2 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.231000,44.272000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Seymour on Outagamie County</name>
+      <description>This department has 2 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.330000,44.514000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hortonville on Outagamie County</name>
+      <description>This department has 1 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.640000,44.335000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Freedom on Outagamie County</name>
+      <description>This department has 2 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.288000,44.387000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bear Creek on Outagamie County</name>
+      <description>This department has 1 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.727500,44.531500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Black Creek on Outagamie County</name>
+      <description>This department has 1 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.451000,44.474500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Shiocton / Bovina on Outagamie County</name>
+      <description>This department has 1 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.555500,44.459000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kimberly on Outagamie County</name>
+      <description>This department has 1 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.339000,44.267000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Greenville on Outagamie County</name>
+      <description>This department has 1 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.537000,44.300000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Dale on Outagamie County</name>
+      <description>This department has 1 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.679000,44.273000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Oneida Indian Nation on Outagamie County</name>
+      <description>This department has 5 total channels.
+System type is Motorola.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.266000,44.486000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Countywide on Winnebago County</name>
+      <description>This department has 7 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.645500,44.068500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Oshkosh on Winnebago County</name>
+      <description>This department has 3 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.554000,44.021000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Theda Clark Memorial on Winnebago County</name>
+      <description>This department has 5 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.645500,44.068500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Systemwide on Winnebago County</name>
+      <description>This department has 9 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.645500,44.068500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Countywide on Winnebago County</name>
+      <description>This department has 24 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.645500,44.068500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sheriff on Winnebago County</name>
+      <description>This department has 5 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.645500,44.068500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Neenah / Menasha on Winnebago County</name>
+      <description>This department has 10 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.444000,44.184000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Omro on Winnebago County</name>
+      <description>This department has 1 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.738000,44.039000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Oshkosh on Winnebago County</name>
+      <description>This department has 8 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.554000,44.021000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Countywide on Waupaca County</name>
+      <description>This department has 15 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.915000,44.462000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>New London on Waupaca County</name>
+      <description>This department has 2 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.738000,44.397000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>City of Waupaca on Waupaca County</name>
+      <description>This department has 2 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.068000,44.347000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Countywide on Kewaunee County</name>
+      <description>This department has 3 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.563500,44.502000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Countywide on Manitowoc County</name>
+      <description>This department has 10 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.773000,44.110000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kiel on Manitowoc County</name>
+      <description>This department has 3 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.027000,43.916000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>City of Manitowoc on Manitowoc County</name>
+      <description>This department has 3 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.681000,44.098000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mishicot on Manitowoc County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.643000,44.232000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Two Rivers on Manitowoc County</name>
+      <description>This department has 3 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.576000,44.151000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Valders on Manitowoc County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.886000,44.069000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Countywide on Manitowoc County</name>
+      <description>This department has 14 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.773000,44.110000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>City of Manitowoc on Manitowoc County</name>
+      <description>This department has 5 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.681000,44.098000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Two Rivers on Manitowoc County</name>
+      <description>This department has 3 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.576000,44.151000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Countywide on Calumet County</name>
+      <description>This department has 10 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.223000,44.068000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Calumet Medical Center on Calumet County</name>
+      <description>This department has 2 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.223000,44.068000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Chilton on Calumet County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.162000,44.030000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>New Holstein on Calumet County</name>
+      <description>This department has 2 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.094000,43.950000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Countywide on Fond du Lac County</name>
+      <description>This department has 11 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.523500,43.740000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Brandon on Fond du Lac County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.782000,43.735000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>City of Fond Du Lac on Fond du Lac County</name>
+      <description>This department has 7 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.436000,43.771000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mount Calvary on Fond du Lac County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.246000,43.826000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>North Fond du Lac on Fond du Lac County</name>
+      <description>This department has 2 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.486000,43.812000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Oakfield on Fond du Lac County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.547000,43.684000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ripon on Fond du Lac County</name>
+      <description>This department has 6 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.826000,43.851500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Countywide on Sheboygan County</name>
+      <description>This department has 17 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.921500,43.717000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>University Security on Sheboygan County</name>
+      <description>This department has 3 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.921500,43.717000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Road America on Sheboygan County</name>
+      <description>This department has 10 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.995000,43.798000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Countywide on Sheboygan County</name>
+      <description>This department has 67 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.928000,43.717500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sheriff on Sheboygan County</name>
+      <description>This department has 19 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.928000,43.717500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EMS on Sheboygan County</name>
+      <description>This department has 19 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.928000,43.717500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ada on Sheboygan County</name>
+      <description>This department has 4 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.896000,43.877000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Adell on Sheboygan County</name>
+      <description>This department has 5 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.950000,43.622000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Batvia on Sheboygan County</name>
+      <description>This department has 6 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.050000,43.594000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Beechwood on Sheboygan County</name>
+      <description>This department has 4 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.120000,43.593000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cascade on Sheboygan County</name>
+      <description>This department has 6 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.008000,43.660000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cedar Grove on Sheboygan County</name>
+      <description>This department has 5 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.825000,43.569000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Elkhart Lake on Sheboygan County</name>
+      <description>This department has 6 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.015000,43.829000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Franklin on Sheboygan County</name>
+      <description>This department has 4 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.902000,43.836000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Glenbeulah on Sheboygan County</name>
+      <description>This department has 5 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.045000,43.799000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Greenbush on Sheboygan County</name>
+      <description>This department has 4 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.084000,43.777000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Haven on Sheboygan County</name>
+      <description>This department has 4 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.753000,43.848000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Howards Grove on Sheboygan County</name>
+      <description>This department has 4 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.826000,43.826000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kohler on Sheboygan County</name>
+      <description>This department has 5 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.779000,43.738000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Lima on Sheboygan County</name>
+      <description>This department has 1 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.860000,43.674000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Oostburg on Sheboygan County</name>
+      <description>This department has 6 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.788000,43.622000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Plymouth on Sheboygan County</name>
+      <description>This department has 8 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.966000,43.750000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Random Lake on Sheboygan County</name>
+      <description>This department has 3 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.960000,43.554000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>City of Sheboygan on Sheboygan County</name>
+      <description>This department has 9 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.727000,43.744000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Town of Sheboygan on Sheboygan County</name>
+      <description>This department has 7 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.755500,43.773500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>City of Sheboygan Falls on Sheboygan County</name>
+      <description>This department has 8 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.829000,43.728000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Town of Sheboygan Falls on Sheboygan County</name>
+      <description>This department has 6 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.857000,43.762000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Silver Creek on Sheboygan County</name>
+      <description>This department has 4 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.025000,43.557000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Waldo on Sheboygan County</name>
+      <description>This department has 4 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-87.947000,43.677000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Scott on Sheboygan County</name>
+      <description>This department has 1 total channels.
+System type is P25 Trunk.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.100500,43.586500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Countywide on Waushara County</name>
+      <description>This department has 10 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.242000,44.114000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Countywide on Green Lake County</name>
+      <description>This department has 9 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.065500,43.807500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Berlin on Green Lake County</name>
+      <description>This department has 3 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.950000,43.972000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Markesan on Green Lake County</name>
+      <description>This department has 2 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-88.991000,43.710000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Marquette County on Marquette County</name>
+      <description>This department has 3 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.383000,43.812500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sheriff on Marquette County</name>
+      <description>This department has 5 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.383000,43.812500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Endeavor / Moundville on Marquette County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.449500,43.686500,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Montello on Marquette County</name>
+      <description>This department has 2 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.336000,43.798000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>New Chester on Adams County</name>
+      <description>This department has 1 total channels.
+System type is Conventional.</description>
+      <visibility>1</visibility>
+      <styleUrl>#DepartmentStyleMap</styleUrl>
+      <Point>
+      <coordinates>-89.657500,43.856000,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>My Location</name>
+      <description>My Location</description>
+      <visibility>1</visibility>
+      <styleUrl>#MyLocationMap</styleUrl>
+      <Point>
+        <coordinates>-87.913000,43.226000,10</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
