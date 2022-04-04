@@ -38,16 +38,16 @@ I took a bit of creative liberty to fit the naming system into somthing that cou
 ---ALERT LIGHT---
 The Alert Light is used to determine if the radio traffic channel is Police, Fire/EMS, Interop, Emergency Management, or a combination shared channel. In addition, the Service Type tag is also accurate for each channel.
 
-BLUE - All police channels have a blue alert light
-CYAN - Correctional facilities.
-RED - All fire and EMS channels have a red alert light
-MAGENTA - If police and fire have a shared a channel (e.g. Citywide), they will have a Magenta alert light (Red+Blue)
-GREEN - In rare instances where police and the DPW share a single channel for their department. Mainly seen in rural areas.
-YELLOW - In rare instances where fire/EMS and the DPW share a single channel for thier department. Mainly seen in rural areas.
+1. BLUE - All police channels have a blue alert light
+2. CYAN - Correctional facilities.
+3. RED - All fire and EMS channels have a red alert light
+4. MAGENTA - If police and fire have a shared a channel (e.g. Citywide), they will have a Magenta alert light (Red+Blue)
+5. GREEN - In rare instances where police and the DPW share a single channel for their department. Mainly seen in rural areas.
+6. YELLOW - In rare instances where fire/EMS and the DPW share a single channel for thier department. Mainly seen in rural areas.
 
-SOLID ON - This channel is primarily used by the department that it is listed under.
-SLOW BLINK - This an interopability channel or patch used for interoperability. (e.g. IFERN)
-FAST BLINK - This is used for Emergency Management channels, used primarily for large scale events
+1. SOLID ON - This channel is primarily used by the department that it is listed under.
+2. SLOW BLINK - This an interopability channel or patch used for interoperability. (e.g. IFERN)
+3. FAST BLINK - This is used for Emergency Management channels, used primarily for large scale events
 
 
 ---ALERT TONE---
