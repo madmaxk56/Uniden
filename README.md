@@ -27,7 +27,9 @@ What’s NOT Included:
 5. Channels that are constant simulcasts of other systems (e.g. State Patrol on county talkgroups)
 
 
+
 **---NAMING---**
+
 I took a bit of creative liberty to fit the naming system into somthing that could be categorized and yet stay simplistic.
 1. Systems are named for the county that they are in. This means conventional and trunked frequencies for the same county share a duplicated name
 2. Departments are separated by city or geographical area by name. Creative liberties had to be taken in some naming conventions.
@@ -35,7 +37,9 @@ I took a bit of creative liberty to fit the naming system into somthing that cou
 4. Talkgroups that are patches to conventional interop frequencies or patches that are not constant simulcasts are designated with #
 
 
----ALERT LIGHT---
+
+**---ALERT LIGHT---**
+
 The Alert Light is used to determine if the radio traffic channel is Police, Fire/EMS, Interop, Emergency Management, or a combination shared channel. In addition, the Service Type tag is also accurate for each channel.
 
 1. BLUE - All police channels have a blue alert light
@@ -45,16 +49,19 @@ The Alert Light is used to determine if the radio traffic channel is Police, Fir
 5. GREEN - In rare instances where police and the DPW share a single channel for their department. Mainly seen in rural areas.
 6. YELLOW - In rare instances where fire/EMS and the DPW share a single channel for thier department. Mainly seen in rural areas.
 
+
 1. SOLID ON - This channel is primarily used by the department that it is listed under.
 2. SLOW BLINK - This an interopability channel or patch used for interoperability. (e.g. IFERN)
 3. FAST BLINK - This is used for Emergency Management channels, used primarily for large scale events
 
 
----ALERT TONE---
+**---ALERT TONE---**
+
 Alert tones were not used in categorizing the favorites list. 
 
 
----GPS---
+**---GPS---**
+
 THIS IS A WORK IN PROGRESS. I still have 20 counties to do!
 
 This is a complete GPS overhaul which is heavily based on coordinate locations grabbed from Google Maps. In my opinion, I really don't like the GPS data that in on the Radioreference database. It's all circles. It's too broad, inconsistent, and not very accurate. I am going through every county and creating hard edges with rectangles between counties and creating uniform distances between cities, and putting edges on cities that could use it. 
@@ -66,7 +73,8 @@ This is a complete GPS overhaul which is heavily based on coordinate locations g
 5. Counties that HAVE NOT undergone the GPS Overhaul wil have default values from the Radioreference Database.
 
 
----QUICK KEYS---
+**---QUICK KEYS---**
+
 As Wisconsin is Alphabetically the 49th state, I have set the Favorites List quick key to 49.
 
 Each system quick key is assigned a county. Reserving keys 0-9 as statewide, I started with my home city of Milwaukee at QK #10 and moved onto each county. Counties are, for the most part, geographically sectioned into groups of 10 with the attempt to center them around major metropolitan areas when I could.
@@ -74,11 +82,13 @@ Each system quick key is assigned a county. Reserving keys 0-9 as statewide, I s
 See QuickKey.pdf for a map of quick keys assigned. Federal is QK #00. WISCOM and Statewide Frequencies are QK #01.
 
 
----WISCOM---
+**---WISCOM---**
+
 THIS IS A WORK IN PROGRESS. Any systems in WISCOM that are being avoided have not been gone through the renaming and assignment process. This means that daily users of WISCOM may not be available in this list yet. I am still working for it, but I haven't gotten the motivation to do this right now. Especially the GPS Portion.
 
 
-**FINAL NOTES
+**FINAL NOTES**
+
 Location Control should be OFF and only Statewide frequencies (49.01) is active. You will need to activate each county you would like to listen to by entering the corresponding quick key (49.10 for Milwaukee County, 49.52). **
 
 **Federal is set to Avoid on Default. I have not even gone through naming them all, and all GPS data (if any) will be defaults.**
