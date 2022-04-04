@@ -1,5 +1,5 @@
 # Uniden
-Favorite List for Sentinel
+Favorite List for Wisconsin
 
 Hello!
 
