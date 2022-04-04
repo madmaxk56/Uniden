@@ -89,13 +89,13 @@ THIS IS A WORK IN PROGRESS. Any systems in WISCOM that are being avoided have no
 
 **FINAL NOTES**
 
-Location Control should be OFF and only Statewide frequencies (49.01) is active. You will need to activate each county you would like to listen to by entering the corresponding quick key (49.10 for Milwaukee County, 49.52). **
+**1. Location Control is off and all systems are active by default. I suggest you should deactivate all county quick keys that you dont want to listen to before upload, or manually entering the corresponding quick key after upload(49.10 for Milwaukee County, 49.52).**
 
-**1. Federal is set to Avoid on Default. I have not even gone through naming them all, and all GPS data (if any) will be defaults.**
+**2. Federal is set to Avoid on Default. I have not even gone through naming them all, and all GPS data (if any) will be defaults.**
 
-**2. Anything that is set to Avoid in WISCOM have to been renamed and filtered yet.**
+**3. Anything that is set to Avoid in WISCOM have to been renamed and filtered yet.**
 
-**3. This Favorites List was last updated on 4-4-2022. It is the effort of one guy, and it is not the perfect solution. You can modify the list as you wish if you feel there is a better way that suits you.**
+**4. This Favorites List was last updated on 4-4-2022. It is the effort of one guy, and it is not the perfect solution. You can modify the list as you wish if you feel there is a better way that suits you.**
 
-**4. I do plan to finish this Favorites List, as it is 95% done. If support is strong, I will keep this list updated as the Radioreference database updates. If you are interested in contributing, you can DM me on the RR Forums or through github.**
+**5. I do plan to finish this Favorites List, as it is 95% done. If support is strong, I will keep this list updated as the Radioreference database updates. If you are interested in contributing, you can DM me on the RR Forums or through github.**
 
