@@ -3,7 +3,7 @@ Favorite List for Sentinel
 
 Hello!
 
-I have been working on a pet project for some time now. As a scanner buff here in Wisconsin, I decided to build on my Favorites List so that encompasses all Police/Fire/EMS frequencies in this state and sort them out into a nicer format with some added benefits rather than using the default database. Here's what this Favorites List is all about. Also See FINAL NOTE at the bottom.
+I have been working on a pet project for some time now. As a scanner buff here in Wisconsin, I decided to build on my Favorites List so that encompasses all Police/Fire/EMS frequencies in this state and sort them out into a nicer format with some added benefits rather than using the default database. Here's what this Favorites List is all about. See FINAL NOTES for some assistnace if you plan to upload.
 
 What’s Included:
 1. All conventional frequencies for Police/Fire/EMS for all counties in Wisconsin.
