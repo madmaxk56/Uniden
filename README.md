@@ -35,6 +35,7 @@ I took a bit of creative liberty to fit the naming system into somthing that cou
 2. Departments are separated by city or geographical area by name. Creative liberties had to be taken in some naming conventions.
 3. The default channel name is "Talkaround" when no other identifying information is given other than Police or Fire Talk (SEE ALERT LIGHT)
 4. Talkgroups that are patches to conventional interop frequencies or patches that are not constant simulcasts are designated with #
+5. Naming was done in an attempt to prevent redundant information.
 
 
 
